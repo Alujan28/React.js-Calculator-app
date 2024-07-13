@@ -28,3 +28,20 @@ form input{
 form input[type="button"]:hover{
     background-color: rgb(137, 137, 224);
 }
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px, 0px 15px 0px;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    padding: 5px 10px;
+    background-color: rgb(17, 15, 15);
+}
+
+form input.equal{
+    width: 123px;
+}
