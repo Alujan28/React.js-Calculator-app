@@ -12,3 +12,19 @@
     border-radius: 10px;
     background-color: antiquewhite;
 }
+form input{
+    border: none;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    background-color: rgb(185, 59, 185);
+    margin: 2px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+form input[type="button"]:hover{
+    background-color: rgb(137, 137, 224);
+}
